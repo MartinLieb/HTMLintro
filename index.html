@@ -2,11 +2,16 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" type=text/css href="mystyle.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Demo side</title>
 </head>
+
+<style>
+h2 {font-style: italic; font-weight: bold}
+</style>
 
 <body>
 
@@ -14,16 +19,24 @@
         <h1>Dette er overskrift</h1>
     </div>
 
+    <h2>Music</h2>
+    <audio controls>
+            <source src="spot the difference.mp3" type="audio/mp3">
+          Your browser does not support the audio element.
+          </audio>
+
 
     <h2>Dette er en underoverskrift</h2>
-    <p><i>Dette er en paragraf</i></p>
+    <p class="uppercase"><i>dette er en paragraf</i></p>
 
-    <p></p>
+    <p id="paragraf1">
+        ID tag test paragraf felt
+    </p>
 
     <nav>
         <ul>
             <li><a href="index.html">Om mig selv</a></li>
-            <li><a href="projects.html">Projekter</a></li>
+            <li><a href="https://github.com/MartinLieb?tab=repositories" target="blank">Projects</a></li>
             <li><a href="memes.html">Memes</a></li>
         </ul>
 
